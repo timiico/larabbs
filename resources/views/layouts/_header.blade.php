@@ -27,23 +27,16 @@
                     </a>
 
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a href="#" class="dropdown-item">
+                        <a href="{{route('users.show',Auth::id())}}" class="dropdown-item">
                             <i class="fas fa-user-tie mr-1"></i>
                             个人资料</a>
 
-                        <a href="#" class="dropdown-item">
+                        <a href="{{route('users.edit',Auth::id())}}" class="dropdown-item">
                             <i class="fas fa-user-nurse mr-1"></i>
                             编辑资料</a>
 
-                        <div class="dropdown-divider"></div>
 
-                        <a href="{{route('user_addresses.index')}}" class="dropdown-item">
-                            <i class="fas fa-home mr-1"></i>
-                            地址列表</a>
 
-                        <a href="http://shop.test/admin/auth/login" class="dropdown-item">
-                            <i class="fas fa-home mr-1"></i>
-                            管理后台</a>
 
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" id="logout" href="#">

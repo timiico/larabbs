@@ -148,6 +148,8 @@
       <path value="$PROJECT_DIR$/vendor/laravel/tinker" />
       <path value="$PROJECT_DIR$/vendor/laravel/sail" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/laravel-lang/lang" />
+      <path value="$PROJECT_DIR$/vendor/overtrue/laravel-lang" />
     </include_path>
   </component>
   <component name="ProjectId" id="1lu9iJKANS2jjhnWE2xWlkel7aN" />
@@ -163,7 +165,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -175,8 +177,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\AI\Code\larabbs\resources\views" />
       <recent name="C:\Users\AI\Code\larabbs\public\images" />
+      <recent name="C:\Users\AI\Code\larabbs\resources\views" />
     </key>
   </component>
   <component name="RunManager">
@@ -198,6 +200,7 @@
       <workItem from="1608518376796" duration="3499000" />
       <workItem from="1608522011836" duration="89000" />
       <workItem from="1608522141053" duration="1032000" />
+      <workItem from="1608529944641" duration="6552000" />
     </task>
     <servers />
   </component>
@@ -224,18 +227,18 @@
       <screen x="0" y="0" width="1772" height="957" />
     </state>
     <state x="859" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1772.957@0.0.1772.957" timestamp="1608479092793" />
-    <state x="617" y="226" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608452216682">
+    <state x="617" y="226" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608532018074">
       <screen x="0" y="0" width="1772" height="957" />
     </state>
-    <state x="617" y="226" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1772.957@0.0.1772.957" timestamp="1608452216682" />
+    <state x="617" y="226" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1772.957@0.0.1772.957" timestamp="1608532018074" />
     <state x="667" y="234" key="FileChooserDialogImpl" timestamp="1608529942365">
       <screen x="0" y="0" width="1772" height="957" />
     </state>
     <state x="667" y="234" key="FileChooserDialogImpl/0.0.1772.957@0.0.1772.957" timestamp="1608529942365" />
-    <state x="720" y="402" key="NewPhpFileDialog" timestamp="1608529770573">
+    <state x="720" y="402" key="NewPhpFileDialog" timestamp="1608532992498">
       <screen x="0" y="0" width="1772" height="957" />
     </state>
-    <state x="720" y="402" key="NewPhpFileDialog/0.0.1772.957@0.0.1772.957" timestamp="1608529770573" />
+    <state x="720" y="402" key="NewPhpFileDialog/0.0.1772.957@0.0.1772.957" timestamp="1608532992498" />
     <state x="388" y="124" key="SettingsEditor" timestamp="1608455500095">
       <screen x="0" y="0" width="1772" height="957" />
     </state>
@@ -244,5 +247,9 @@
       <screen x="0" y="0" width="1772" height="957" />
     </state>
     <state x="900" y="198" width="598" height="536" key="find.popup/0.0.1772.957@0.0.1772.957" timestamp="1608480681836" />
+    <state x="549" y="205" width="672" height="678" key="search.everywhere.popup" timestamp="1608535474574">
+      <screen x="0" y="0" width="1772" height="957" />
+    </state>
+    <state x="549" y="205" width="672" height="678" key="search.everywhere.popup/0.0.1772.957@0.0.1772.957" timestamp="1608535474574" />
   </component>
 </project>
