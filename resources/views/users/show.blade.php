@@ -5,16 +5,16 @@
       <div class="col-lg-3 col-md-3 hidden-xs hidden-sm user-info">
         <div class="card">
 
-          <div class="card-img-top">
-            <img src="/images/TrJS40Ey5k.png" width="254" alt="{{$user->name}}">
-          </div>
+          <img class="card-img-top" src="{{$user->avatar}}"  alt="{{$user->name}}">
+
+
 
           <div class="card-body">
             <h6><strong>个人简介:</strong></h6>
-            <p>当某天到来,或许一切都会不一样,充满希望</p>
+            <p>{{$user->introduction}}</p>
             <hr>
             <h6><strong>注册于:</strong></h6>
-            <p>{{$user->created_at}}</p>
+            <p>{{$user->created_at->diffForhumans()}}</p>
           </div>
 
         </div>
@@ -30,7 +30,7 @@
 
       <hr>
 
-      <div class="card">
+      <div class="card mb-5">
         <div class="card-body">
           <p>暂无数据😊</p>
         </div>

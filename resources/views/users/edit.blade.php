@@ -10,7 +10,7 @@
         </div>
 
         <div class="card-body">
-          <form method="post" action="{{route('users.update',$user->id)}}">
+          <form method="post" action="{{route('users.update',$user->id)}}" enctype="multipart/form-data">
             {{csrf_field()}}
             {{method_field('PATCH')}}
             <div class="form-group">
@@ -39,8 +39,8 @@
 
             <div class="form-group">
               <label for="name-filed">个人简介:</label>
-              <textarea type="text" name="text" rows="3" id="introduction-field" value="{{old('introduction',$user->introduction)}}" class="form-control @error('introduction') is-invalid @enderror ">
-              </textarea>
+              <textarea type="text" rows="3" name="introduction" id="introduction-field" value="{{old('introduction',$user->introduction)}}" class="form-control @error('introduction') is-invalid @enderror ">{{$user->introduction}}</textarea>
+
               @error('introduction')
               <span class="invalid-feedback" role="alert">
                 <strong>{{$message}}</strong>
@@ -48,10 +48,25 @@
               @enderror
             </div>
 
+
             <div class="form-group">
-              <label for="avatar-filed"></label>
-              <input type="file" name="avatar" id="avatar-field" class="form-control-file" value="{{old('avatar',$user->avatar)}}">
-            </div>
+              <label class="avatar-field " >个人头像</label>
+                <input type="file" class="form-control-file" name="avatar" id="avatar-field">
+
+              @if($user->avatar)
+                <br>
+                <img src="{{$user->avatar}}" width="200" class="thumbnail img-responsive">
+
+              @endif
+
+              </div>
+
+
+
+
+
+
+
 
 
             <button class="btn btn-primary" type="submit">更新</button>

@@ -22,7 +22,7 @@
                     <a class="nav-link dropdown-toggle" href=""  role="button" id="navbarDropdown"
                        data-toggle="dropdown"
                        aria-haspopup="true" aria-expanded="false" >
-                        <img src="https://cdn.learnku.com/uploads/images/201710/30/1/TrJS40Ey5k.png" width="30" height="30" style="border-radius: 50%">
+                        <img src="{{Auth::user()->avatar}}" width="30" height="30" style="border-radius: 50%">
                         {{Auth::user()->name}}
                     </a>
 
