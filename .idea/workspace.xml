@@ -155,6 +155,7 @@
       <path value="$PROJECT_DIR$/vendor/maximebf/debugbar" />
       <path value="$PROJECT_DIR$/vendor/symfony/debug" />
       <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar" />
+      <path value="$PROJECT_DIR$/vendor/summerblue/laravel-active" />
     </include_path>
   </component>
   <component name="ProjectId" id="1lu9iJKANS2jjhnWE2xWlkel7aN" />
@@ -205,7 +206,7 @@
       <workItem from="1608518376796" duration="3499000" />
       <workItem from="1608522011836" duration="89000" />
       <workItem from="1608522141053" duration="1032000" />
-      <workItem from="1608529944641" duration="31837000" />
+      <workItem from="1608529944641" duration="33973000" />
     </task>
     <servers />
   </component>
@@ -228,10 +229,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="859" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1608479092793">
+    <state x="859" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1608604879542">
       <screen x="0" y="0" width="1772" height="957" />
     </state>
-    <state x="859" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1772.957@0.0.1772.957" timestamp="1608479092793" />
+    <state x="859" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1772.957@0.0.1772.957" timestamp="1608604879542" />
     <state x="617" y="226" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608532018074">
       <screen x="0" y="0" width="1772" height="957" />
     </state>
