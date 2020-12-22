@@ -51,13 +51,18 @@
 
             <div class="form-group">
               <label class="avatar-field " >个人头像</label>
-                <input type="file" class="form-control-file" name="avatar" id="avatar-field">
+                <input type="file" class="form-control-file @error('avatar') is-invalid @enderror" name="avatar" id="avatar-field">
 
               @if($user->avatar)
                 <br>
                 <img src="{{$user->avatar}}" width="200" class="thumbnail img-responsive">
-
               @endif
+
+              @error('avatar')
+              <span class="invalid-feedback" role="alert">
+                <strong>{{$message}}</strong>
+              </span>
+              @enderror
 
               </div>
 
