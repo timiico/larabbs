@@ -151,6 +151,7 @@
       <path value="$PROJECT_DIR$/vendor/laravel-lang/lang" />
       <path value="$PROJECT_DIR$/vendor/overtrue/laravel-lang" />
       <path value="$PROJECT_DIR$/vendor/intervention/image" />
+      <path value="$PROJECT_DIR$/vendor/summerblue/generator" />
     </include_path>
   </component>
   <component name="ProjectId" id="1lu9iJKANS2jjhnWE2xWlkel7aN" />
@@ -201,7 +202,7 @@
       <workItem from="1608518376796" duration="3499000" />
       <workItem from="1608522011836" duration="89000" />
       <workItem from="1608522141053" duration="1032000" />
-      <workItem from="1608529944641" duration="25607000" />
+      <workItem from="1608529944641" duration="28347000" />
     </task>
     <servers />
   </component>

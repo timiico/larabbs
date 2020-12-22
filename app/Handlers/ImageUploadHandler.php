@@ -13,18 +13,23 @@ class ImageUploadHandler
 
    public function save($file, $folder, $file_prefix,$max_width = false)
    {
-       $folder_name = "/upload/images/$folder/".date('Ym/d',time());
-
-       $upload_path    = public_path().'/'.$folder_name;
-
        $extension   =   strtolower($file->getClientOriginalExtension())?:'png';
-
-       $filename    =   $file_prefix.'-'.time().'-'.Str::random(10).'.'.$extension;
 
        if (!in_array($extension,$this->allowed_ext))
        {
            return false;
        }
+
+
+       $folder_name = "/upload/images/$folder/".date('Ym/d',time());
+
+       $upload_path    = public_path().'/'.$folder_name;
+
+
+
+       $filename    =   $file_prefix.'-'.time().'-'.Str::random(10).'.'.$extension;
+
+
 
        $file->move($upload_path,$filename);
 
